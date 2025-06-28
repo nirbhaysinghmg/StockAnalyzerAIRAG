@@ -2,3 +2,4 @@ node_modules
 venv
 chroma_db
 .csv
+.env

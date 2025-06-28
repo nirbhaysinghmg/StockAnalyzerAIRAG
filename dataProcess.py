@@ -8,7 +8,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-API_KEYS = ["AIzaSyCveyhGIW3qn6kJCfpv7GE1wxmsEeFpjb0", "AIzaSyAhyUH4sCLskS5428llGsaCQoLVAQlWDhw"]
+API_KEYS = [""]
 current_api_index = 0  # Track which API key is in use
 
 def get_llm():
