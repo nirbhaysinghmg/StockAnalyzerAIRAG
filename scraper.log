@@ -1,0 +1,118 @@
+2025-06-14 10:54:58,259 - INFO - Extra Scroll Check for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers... Trying 3 more times.
+2025-06-14 10:55:44,366 - WARNING - Network idle wait exceeded for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers, proceeding anyway: Timeout 40000ms exceeded.
+2025-06-14 10:55:49,694 - INFO - \u2705 Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-14 11:24:14,629 - WARNING - Table not found immediately for https://www.moneycontrol.com/stocks/marketstats/nse-gainer/all-companies_-2/: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("table.bsr_table.hist_tbl_hm") to be visible
+
+2025-06-14 11:24:16,835 - ERROR - \u274c Scraping failed for https://www.moneycontrol.com/stocks/marketstats/nse-gainer/all-companies_-2/: Page.evaluate: SyntaxError: Illegal return statement
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:313:29)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2025-06-14 11:24:50,596 - WARNING - Table not found immediately for https://www.moneycontrol.com/stocks/marketstats/nse-gainer/all-companies_-2/: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("table.bsr_table.hist_tbl_hm") to be visible
+
+2025-06-14 11:24:53,036 - ERROR - \u274c Scraping failed for https://www.moneycontrol.com/stocks/marketstats/nse-gainer/all-companies_-2/: Page.evaluate: SyntaxError: Illegal return statement
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:313:29)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2025-06-14 11:30:43,539 - WARNING - Table not found immediately for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("table.bsr_table.hist_tbl_hm") to be visible
+
+2025-06-14 11:30:45,838 - ERROR - \u274c Scraping failed for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers: Page.evaluate: SyntaxError: Illegal return statement
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:313:29)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2025-06-14 11:31:59,117 - WARNING - Table not found immediately for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("table.bsr_table.hist_tbl_hm") to be visible
+
+2025-06-14 11:32:00,871 - ERROR - \u274c Scraping failed for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers: Page.evaluate: SyntaxError: Illegal return statement
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:313:29)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2025-06-14 11:41:31,370 - ERROR - \u274c Scraping failed for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers: Page.evaluate: SyntaxError: Illegal return statement
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:313:29)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2025-06-14 11:43:20,935 - WARNING - Table not found immediately for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("div.MarketTable_fullWidth__lfGjH") to be visible
+
+2025-06-14 11:44:03,766 - WARNING - Network idle wait exceeded for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers, proceeding anyway: Timeout 40000ms exceeded.
+2025-06-14 11:44:08,976 - INFO - \u2705 Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-14 11:58:42,531 - INFO - Extra Scroll Check for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers... Trying 3 more times.
+2025-06-14 11:59:29,476 - WARNING - Network idle wait exceeded for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers, proceeding anyway: Timeout 40000ms exceeded.
+2025-06-14 11:59:34,955 - INFO - \u2705 Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-14 12:48:26,690 - INFO - Extra Scroll Check for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers... Trying 3 more times.
+2025-06-14 12:49:13,913 - WARNING - Network idle wait exceeded for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers, proceeding anyway: Timeout 40000ms exceeded.
+2025-06-14 12:49:19,438 - INFO - \u2705 Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-14 13:27:41,384 - INFO - Navigating to: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-14 13:27:42,595 - ERROR - Scraping failed for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers: Page.evaluate: Target page, context or browser has been closed
+2025-06-14 13:27:42,599 - ERROR - Error writing to CSV: [Errno 13] Permission denied: 'StocksCrawled.csv'
+2025-06-14 13:56:02,188 - INFO - Navigating to: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-14 13:56:29,395 - ERROR - Error extracting table: Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("div.MarketStats_tableContainer__t0XxQ") to be visible
+
+2025-06-14 13:56:29,397 - ERROR - Scraping failed for https://economictimes.indiatimes.com/stocks/marketstats/top-gainers: name 'json' is not defined
+2025-06-14 13:56:29,398 - ERROR - Error writing to CSV: [Errno 13] Permission denied: 'StocksCrawled.csv'
+2025-06-14 14:13:01,731 - INFO - \u2705 Successfully scraped: https://www.moneycontrol.com/
+2025-06-14 14:13:38,238 - INFO - \u2705 Successfully scraped: https://www.moneycontrol.com/
+2025-06-14 14:13:52,529 - ERROR - \u274c Scraping failed for www.moneycontrol.com: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "www.moneycontrol.com", waiting until "networkidle"
+
+2025-06-14 14:14:47,742 - ERROR - \u274c Scraping failed for https://www.moneycontrol.com: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.moneycontrol.com/", waiting until "networkidle"
+
+2025-06-14 14:15:20,198 - ERROR - \u274c Scraping failed for https://www.moneycontrol.com: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.moneycontrol.com/", waiting until "networkidle"
+
+2025-06-14 14:28:48,513 - ERROR - \u274c Scraping failed for https://m.economictimes.com/markets: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://m.economictimes.com/markets", waiting until "networkidle"
+
+2025-06-14 14:39:44,180 - ERROR - \u274c Scraping failed for https://m.economictimes.com/markets: Timeout 30000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+2025-06-14 14:41:26,702 - INFO - \u2705 Successfully scraped: https://m.economictimes.com/markets
+2025-06-14 14:43:01,037 - INFO - \u2705 Successfully scraped: https://m.economictimes.com/markets
+2025-06-14 14:44:46,460 - INFO - \u2705 Successfully scraped: https://m.economictimes.com/markets
+2025-06-14 14:50:57,891 - ERROR - \u274c Scraping failed for https://www.moneycontrol.com/: Page.content: Target page, context or browser has been closed
+2025-06-14 14:54:45,209 - INFO - \u2705 Successfully scraped: https://m.economictimes.com/markets
+2025-06-14 15:02:25,616 - INFO - \u2705 Successfully scraped: https://m.economictimes.com/markets
+2025-06-14 15:10:42,281 - INFO - \u2705 Successfully scraped: https://m.economictimes.com/markets
+2025-06-14 15:11:09,219 - INFO - \u2705 Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-14 15:11:36,502 - INFO - \u2705 Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-losers
+2025-06-14 16:27:57,906 - INFO - \u2705 Successfully scraped: https://m.economictimes.com/markets
+2025-06-17 15:43:04,392 - INFO - ✅ Successfully scraped: https://m.economictimes.com/markets
+2025-06-17 15:43:33,114 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-17 15:44:00,394 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-losers
+2025-06-26 12:37:49,222 - INFO - ✅ Successfully scraped: https://m.economictimes.com/markets
+2025-06-26 12:38:18,567 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-26 12:38:47,194 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-losers
+2025-06-26 12:53:41,023 - INFO - ✅ Successfully scraped: https://m.economictimes.com/markets
+2025-06-26 12:56:08,941 - INFO - ✅ Successfully scraped: https://m.economictimes.com/markets
+2025-06-26 12:56:50,587 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-26 12:57:30,565 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-losers
+2025-06-26 13:28:21,704 - INFO - ✅ Successfully scraped: https://m.economictimes.com/markets
+2025-06-26 13:29:05,624 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-26 13:29:45,953 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-losers
+2025-06-26 14:00:36,697 - INFO - ✅ Successfully scraped: https://m.economictimes.com/markets
+2025-06-26 14:01:19,084 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-26 14:01:59,103 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-losers
+2025-06-26 14:32:50,901 - INFO - ✅ Successfully scraped: https://m.economictimes.com/markets
+2025-06-26 14:33:30,996 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-26 14:34:11,308 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-losers
+2025-06-26 15:05:03,534 - INFO - ✅ Successfully scraped: https://m.economictimes.com/markets
+2025-06-26 15:05:43,456 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-26 15:06:25,091 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-losers
+2025-06-27 19:17:15,659 - INFO - ✅ Successfully scraped: https://m.economictimes.com/markets
+2025-06-27 19:17:56,961 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-gainers
+2025-06-27 19:18:37,082 - INFO - ✅ Successfully scraped: https://economictimes.indiatimes.com/stocks/marketstats/top-losers

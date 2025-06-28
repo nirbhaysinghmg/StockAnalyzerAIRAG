@@ -1,0 +1,26 @@
+Created a chunk of size 1026, which is longer than the specified 1000
+INFO:     Started server process [1887262]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:     ('103.211.19.133', 51248) - "WebSocket /ws" [accepted]
+INFO:     connection open
+/home/nirbhay/StocksAI/app.py:340: LangChainDeprecationWarning: The method `Chain.__call__` was deprecated in langchain 0.1.0 and will be removed in 1.0. Use :meth:`~invoke` instead.
+  result = qa({
+INFO:     connection closed
+INFO:     ('103.211.19.133', 52068) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     ('103.211.19.133', 52854) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     ('103.211.19.133', 53220) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     ('103.211.19.133', 55806) - "WebSocket /ws" [accepted]
+INFO:     connection open
+INFO:     connection closed

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot</title>
+  </head>
+  <body>
+    <!-- Add inside <body> of your HTML -->
+    <div id="chatbot" style="display: none"></div>
+    <div
+      id="elan-ai-button"
+      onclick="openChatbot()"
+      style="
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: linear-gradient(135deg, #004aad 0%, #0066cc 100%);
+        color: white;
+        font-weight: 600;
+        padding: 14px 24px;
+        border-radius: 30px;
+        box-shadow: 0 4px 15px rgba(0, 74, 173, 0.35);
+        cursor: pointer;
+        font-size: 16px;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: all 0.3s ease;
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+        letter-spacing: 0.2px;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+      "
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="22"
+        height="22"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        style="min-width: 22px"
+      >
+        <path
+          d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+        ></path>
+      </svg>
+      <span>Need Help? Stocks AI Agent Is Here!</span>
+    </div>
+
+    <style>
+      #elan-ai-button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(0, 74, 173, 0.45);
+        background: linear-gradient(135deg, #0052c2 0%, #0074e8 100%);
+      }
+
+      #elan-ai-button:active {
+        transform: translateY(0);
+        box-shadow: 0 3px 10px rgba(0, 74, 173, 0.3);
+      }
+
+      @media (max-width: 768px) {
+        #elan-ai-button {
+          padding: 12px 20px;
+          font-size: 14px;
+          bottom: 15px;
+          right: 15px;
+        }
+
+        #elan-ai-button span {
+          display: none;
+        }
+
+        #elan-ai-button svg {
+          margin: 0;
+        }
+      }
+
+      /* Add styles for the chatbot logo */
+      #chatbot .chat-logo {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+        border-radius: 8px;
+        background: white;
+        padding: 4px;
+      }
+    </style>
+
+    <!-- Load Chatbot Script -->
+    <script src="http://150.241.244.252:5002/dist/chatbot-widget.js"></script>
+
+    <script>
+      // Define openChatbot function
+      function openChatbot() {
+        const chatbot = document.getElementById("chatbot");
+        const button = document.getElementById("elan-ai-button");
+        if (chatbot) {
+          chatbot.style.display = "block";
+          // Hide the button when chatbot is opened
+          if (button) {
+            button.style.display = "none";
+          }
+        }
+      }
+
+      // Define closeChatbot function
+      function closeChatbot() {
+        const chatbot = document.getElementById("chatbot");
+        const button = document.getElementById("elan-ai-button");
+        if (chatbot) {
+          chatbot.style.display = "none";
+          // Show the button when chatbot is closed
+          if (button) {
+            button.style.display = "flex";
+          }
+        }
+      }
+
+      // Initialize Chatbot
+      if (window.ChatBotWidget?.init) {
+        ChatBotWidget.init({
+          container: "#chatbot",
+          baseUrl: "https://chat.realtyseek.ai",
+          companyName: "Apollo Tyres",
+          companyLogo:
+            "assets/images/apollo-tyres-logo-png_seeklogo-314374.png",
+          primaryColor: "#004aad",
+          placeholder: "Ask about Stocks or support...",
+          showButton: false,
+          onInit: () => {
+            const observer = new MutationObserver(() => {
+              const header = document.querySelector(".chat-header");
+              if (header && !header.querySelector(".close-button")) {
+                const btn = document.createElement("button");
+                btn.className = "close-button";
+                btn.innerHTML = "&times;";
+                btn.onclick = closeChatbot;
+                Object.assign(btn.style, {
+                  position: "absolute",
+                  top: "12px",
+                  right: "14px",
+                  fontSize: "22px",
+                  background: "transparent",
+                  border: "none",
+                  cursor: "pointer",
+                  color: "#444",
+                });
+                header.appendChild(btn);
+                observer.disconnect();
+              }
+            });
+            observer.observe(document.body, { childList: true, subtree: true });
+          },
+        });
+      }
+    </script>
+  </body>
+</html>

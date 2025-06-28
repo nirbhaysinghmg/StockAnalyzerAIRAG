@@ -1,0 +1,45 @@
+ INFO  Accepting connections at http://localhost:5002
+ HTTP  6/27/2025 8:13:54 PM 146.196.36.29 GET /assets/images/stocks-ai-logo.png
+ HTTP  6/27/2025 8:13:54 PM 146.196.36.29 Returned 404 in 37 ms
+ HTTP  6/27/2025 8:13:56 PM 146.196.36.29 GET /public/
+ HTTP  6/27/2025 8:13:56 PM 146.196.36.29 Returned 304 in 7 ms
+ HTTP  6/27/2025 8:13:56 PM 146.196.36.29 GET /dist/chatbot-widget.js
+ HTTP  6/27/2025 8:13:56 PM 146.196.36.29 Returned 304 in 4 ms
+ HTTP  6/27/2025 8:13:56 PM 146.196.36.29 GET /assets/images/stocks-ai-logo.png
+ HTTP  6/27/2025 8:13:56 PM 146.196.36.29 Returned 404 in 3 ms
+ HTTP  6/27/2025 9:46:53 PM 223.190.81.50 GET /public/
+ HTTP  6/27/2025 9:46:53 PM 223.190.81.50 Returned 304 in 8 ms
+ HTTP  6/27/2025 9:46:53 PM 223.190.81.50 GET /dist/chatbot-widget.js
+ HTTP  6/27/2025 9:46:53 PM 223.190.81.50 Returned 304 in 1 ms
+ HTTP  6/27/2025 9:46:53 PM 223.190.81.50 GET /assets/images/stocks-ai-logo.png
+ HTTP  6/27/2025 9:46:53 PM 223.190.81.50 Returned 404 in 3 ms
+ HTTP  6/28/2025 8:04:57 AM 103.211.19.133 GET /favicon.ico
+ HTTP  6/28/2025 8:04:57 AM 103.211.19.133 Returned 404 in 4 ms
+ HTTP  6/28/2025 8:13:45 AM 103.211.19.133 GET /public/
+ HTTP  6/28/2025 8:13:45 AM 103.211.19.133 Returned 304 in 10 ms
+ HTTP  6/28/2025 8:13:45 AM 103.211.19.133 GET /dist/chatbot-widget.js
+ HTTP  6/28/2025 8:13:45 AM 103.211.19.133 Returned 304 in 2 ms
+ HTTP  6/28/2025 8:13:45 AM 103.211.19.133 GET /assets/images/stocks-ai-logo.png
+ HTTP  6/28/2025 8:13:45 AM 103.211.19.133 Returned 404 in 5 ms
+ HTTP  6/28/2025 8:16:32 AM 103.211.19.133 GET /public/
+ HTTP  6/28/2025 8:16:32 AM 103.211.19.133 Returned 304 in 4 ms
+ HTTP  6/28/2025 8:16:32 AM 103.211.19.133 GET /dist/chatbot-widget.js
+ HTTP  6/28/2025 8:16:32 AM 103.211.19.133 Returned 304 in 1 ms
+ HTTP  6/28/2025 8:16:32 AM 103.211.19.133 GET /assets/images/stocks-ai-logo.png
+ HTTP  6/28/2025 8:16:32 AM 103.211.19.133 Returned 404 in 4 ms
+ HTTP  6/28/2025 8:26:47 AM 103.211.19.133 GET /public/
+ HTTP  6/28/2025 8:26:47 AM 103.211.19.133 Returned 304 in 11 ms
+ HTTP  6/28/2025 8:26:47 AM 103.211.19.133 GET /dist/chatbot-widget.js
+ HTTP  6/28/2025 8:26:47 AM 103.211.19.133 Returned 304 in 2 ms
+ HTTP  6/28/2025 8:26:47 AM 103.211.19.133 GET /assets/images/stocks-ai-logo.png
+ HTTP  6/28/2025 8:26:47 AM 103.211.19.133 Returned 404 in 4 ms
+ HTTP  6/28/2025 9:31:31 AM 103.211.19.133 GET /public/
+ HTTP  6/28/2025 9:31:31 AM 103.211.19.133 Returned 304 in 9 ms
+ HTTP  6/28/2025 9:31:31 AM 103.211.19.133 GET /dist/chatbot-widget.js
+ HTTP  6/28/2025 9:31:31 AM 103.211.19.133 Returned 304 in 1 ms
+ HTTP  6/28/2025 9:31:31 AM 103.211.19.133 GET /assets/images/stocks-ai-logo.png
+ HTTP  6/28/2025 9:31:31 AM 103.211.19.133 Returned 404 in 4 ms
+ HTTP  6/28/2025 9:45:14 AM 3.132.23.201 GET /
+ HTTP  6/28/2025 9:45:14 AM 3.132.23.201 Returned 200 in 32 ms
+ HTTP  6/28/2025 9:48:59 AM 3.132.23.201 GET /
+ HTTP  6/28/2025 9:48:59 AM 3.132.23.201 Returned 200 in 9 ms
